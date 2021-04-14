@@ -1,0 +1,45 @@
+html {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  background-color: #e9eef3;
+}
+
+.el-pagination {
+  color: #868e96;
+}
+
+.status {
+  display: inline-block;
+  cursor: pointer;
+  width: .875rem;
+  height: .875rem;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.status-primary {
+  background: #4058fF;
+}
+
+.status-success {
+  background: #51cf66;
+}
+
+.status-warning {
+  background: #ff6b6b;
+}
+
+.status-danger {
+  background: #ff0000;
+}
+
+.status-info {
+  background: #868e96;
+}
