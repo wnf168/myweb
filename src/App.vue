@@ -1,10 +1,23 @@
 <template>
   <div id="app">
-    123
-    <router-view/>
+    {{ a }}
+    <button @click="test">click</button>
+    <router-view />
   </div>
 </template>
+<script lang="ts">
+import Vue from 'vue'
+import Component from 'vue-class-component'
+@Component
+export default class App extends Vue {
+  a = '1'
+  test() {
+    console.log('abc')
+  }
 
-<style lang="scss" scoped>
-
-</style>
+  created() {
+    console.log(9969)
+  }
+}
+</script>
+<style lang="scss" scoped></style>
